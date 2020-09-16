@@ -6,4 +6,4 @@ jobs:
     steps:
       - name: aura scan
         id: aura_scan
-        uses: SourceCode-AI/actions
+        uses: SourceCode-AI/actions@master
