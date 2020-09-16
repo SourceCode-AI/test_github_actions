@@ -1,0 +1,9 @@
+on: [push]
+jobs:
+  aura_scan:
+    runs-on: ubuntu-latest
+    name: Scan the code with Aura
+    steps:
+      - name: aura scan
+        id: aura_scan
+        uses: SourceCode-AI/actions
